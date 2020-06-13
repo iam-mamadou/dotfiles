@@ -1,5 +1,8 @@
 # WIP 
 
+* Iterm2 - https://www.iterm2.com/
+* tmux - https://github.com/tmux/tmux/wiki
+
 ## Vundle
 * Plugin managers
   ```bash
@@ -13,7 +16,7 @@
   - [NERDTree](https://github.com/preservim/nerdtree) - A tree explorer plugin for vim.
   - Dracula: https://github.com/blueshirts/darcula
   - Goyo: https://github.com/junegunn/goyo.vim
-
+  - FZF: https://github.com/junegunn/fzf.vim 
 * Tips:
   ```
   # https://vi.stackexchange.com/questions/10098/what-does-mean
@@ -32,13 +35,13 @@
   ```
 
 ## TODO:
-* [] TMUX integration with Iterm2
+* [x] TMUX integration with Iterm2
 * [] COC
 * [] syntastic
 * [] symbolic link
 * [] default directory
 * [] Map Cap to ESC key
-* [] FZF https://github.com/junegunn/fzf.vim 
+* [x] FZF https://github.com/junegunn/fzf.vim 
 * [] Low-contrast Vim color scheme based on Seoul Colors: https://github.com/junegunn/seoul256.vim
 
 
