@@ -23,7 +23,7 @@
   :%! sort is pretty much the same as (from a shell) cat file | sort > tmp && mv tmp file
   ```
 ## ZSH
-* theme: https://github.com/sindresorhus/pure + https://github.com/sindresorhus/iterm2-snazzy 
+* theme: https://github.com/sindresorhus/pure + https://github.com/sindresorhus/terminal-snazzy 
 * syntax highligthing: zsh-syntax-highlighting
   ```bash
   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
