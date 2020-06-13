@@ -1,14 +1,18 @@
 syntax on
 set noerrorbells
+
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
 set smartindent
+
 set nu
 set nowrap
 set smartcase
 set incsearch
+
+set rtp+=~/.fzf
 
 syntax enable
 colorscheme darcula
@@ -29,6 +33,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'preservim/nerdtree'
 Plugin 'junegunn/goyo.vim'
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
 
 call vundle#end()         
 filetype plugin indent on
