@@ -16,6 +16,7 @@ echo "backing up using dot files ..."
 mv $USER_DIR/.vimrc $BACKUP_DIR/.vimrc 
 
 ln -sf $USER_DIR/dotfiles/.vimrc $USER_DIR/.vimrc
+ln -sf $USER_DIR/dotfiles/.tmux.conf $USER_DIR/.tmux.conf
 ln -sf $USER_DIR/dotfiles/.zshrc $USER_DIR/.zshrc
 
 touch $USER_DIR/.hushlogin
