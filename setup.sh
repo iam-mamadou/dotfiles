@@ -1,4 +1,6 @@
 #!/bin/bash
+
+USER_DIR=/Users/$(whoami)
 DARCULAR_THEME_URL="https://raw.githubusercontent.com/blueshirts/darcula/master/colors/darcula.vim"
 
 PACKAGES=(
@@ -7,8 +9,15 @@ PACKAGES=(
     fzf    
 )
 
-touch /Users/$(whoami)/.hushlogin
-mkdir -p backup/$(whoami)
+BACKUP_DIR=backup/$(whoami)
+
+mkdir -p $BACKUP_DIR
+echo "backing up using dot files ..."
+mv $USER_DIR/.vimrc $BACKUP_DIR/.vimrc 
+
+ln -sf $USER_DIR/dotfiles/.vimrc $USER_DIR/vimrc
+
+touch $USER_DIR/.hushlogin
 
 echo "downloading darcula theme ..."
 wget -q -N -P ~/.vim/colors/ \

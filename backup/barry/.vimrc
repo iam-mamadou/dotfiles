@@ -7,7 +7,7 @@ set shiftwidth=4
 set expandtab
 set smartindent
 
-set relativenumber
+set nu
 set nowrap
 set smartcase
 set incsearch
@@ -71,5 +71,4 @@ call NERDTreeHighlightFile('css', 'cyan', 'none', 'cyan', '#151515')
 call NERDTreeHighlightFile('coffee', 'Red', 'none', 'red', '#151515')
 call NERDTreeHighlightFile('js', 'Red', 'none', '#ffa500', '#151515')
 call NERDTreeHighlightFile('php', 'Magenta', 'none', '#ff00ff', '#151515')
-
 

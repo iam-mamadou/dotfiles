@@ -3,6 +3,12 @@
 * Iterm2 - https://www.iterm2.com/
 * tmux - https://github.com/tmux/tmux/wiki
 
+## Sample
+
+![Alt text](pics/terminal.png?raw=true "Terminal")
+
+![Alt text](pics/vim.png?raw=true "Vim")
+
 ## Vundle
 * Plugin managers
   ```bash
