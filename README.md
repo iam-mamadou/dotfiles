@@ -41,14 +41,14 @@
   ```
 
 ## TODO:
-* [x] TMUX integration with Iterm2
-* [] COC
-* [] syntastic
-* [] symbolic link
-* [] default directory
-* [] Map Cap to ESC key
-* [x] FZF https://github.com/junegunn/fzf.vim 
-* [] Low-contrast Vim color scheme based on Seoul Colors: https://github.com/junegunn/seoul256.vim
+[x] TMUX integration with Iterm2
+[] COC
+[] syntastic
+[] symbolic link
+[] default directory
+[] Map Cap to ESC key
+[x] FZF https://github.com/junegunn/fzf.vim 
+[] Low-contrast Vim color scheme based on Seoul Colors: https://github.com/junegunn/seoul256.vim
 
 
 https://vimawesome.com/

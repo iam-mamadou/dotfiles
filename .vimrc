@@ -22,22 +22,16 @@ colorscheme darcula
 " show statusbar" show statusbar" show statusbar
 set laststatus=2
 
-" Vundle
-set nocompatible              " be iMproved, required
-filetype off                  " required
+call plug#begin('~/.vim/plugged')
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
+Plug 'itchyny/lightline.vim'
+Plug 'preservim/nerdtree'
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
+Plug 'neoclide/coc.nvim'
 
-Plugin 'itchyny/lightline.vim'
-Plugin 'preservim/nerdtree'
-Plugin 'junegunn/goyo.vim'
-Plugin 'junegunn/fzf'
-Plugin 'junegunn/fzf.vim'
-
-call vundle#end()         
+call plug#end()         
 filetype plugin indent on
 
 

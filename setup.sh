@@ -2,7 +2,7 @@
 
 USER_DIR=/Users/$(whoami)
 DARCULAR_THEME_URL="https://raw.githubusercontent.com/blueshirts/darcula/master/colors/darcula.vim"
-
+VIM_PLUG_URL="https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
 PACKAGES=(
     iterm2
     tmux
@@ -21,11 +21,15 @@ ln -sf $USER_DIR/dotfiles/.zshrc $USER_DIR/.zshrc
 
 touch $USER_DIR/.hushlogin
 
+echo "installing vim-plug ..."
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    ${VIM_PLUG_URL}
+
 echo "downloading darcula theme ..."
 wget -q -N -P ~/.vim/colors/ \
     ${DARCULAR_THEME_URL}
 
-echo "installing packages"
+echo "installing packages ..."
 for package in "${PACKAGES[@]}"
 do
     echo " - $package"
