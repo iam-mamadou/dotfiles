@@ -1,0 +1,69 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "files.exclude": {
+        "**/.git": false
+},
+"editor.minimap.enabled": false,
+"editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+"editor.fontLigatures": true,
+"editor.codeActionsOnSave": null,
+"editor.suggestSelection": "first",
+
+"workbench.sideBar.location": "left",
+"workbench.startupEditor": "newUntitledFile",
+"workbench.activityBar.visible": false,
+"workbench.editor.centeredLayoutAutoResize": false,
+"workbench.colorTheme": "Community Material Theme",
+
+"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+"files.autoSave": "afterDelay",
+"[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"git.enableSmartCommit": true,
+"go.testOnSave": true,
+"go.lintOnSave": "package",
+"go.formatTool": "goimports",
+"go.testFlags": [
+    "-v"
+],
+"go.autocompleteUnimportedPackages": true,
+"[go]": {
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    }
+},
+"vim.easymotion": true,
+"vim.incsearch": true,
+"vim.useSystemClipboard": true,
+"vim.useCtrlKeys": true,
+"vim.hlsearch": true,
+"vim.insertModeKeyBindings": [
+  {
+    "before": ["j", "j"],
+    "after": ["<Esc>"]
+  }
+],
+"vim.normalModeKeyBindingsNonRecursive": [
+  {
+    "before": ["<leader>", "d"],
+    "after": ["d", "d"]
+  },
+  {
+    "before": ["<C-n>"],
+    "commands": [":nohl"]
+  }
+],
+"vim.leader": "<space>",
+"vim.handleKeys": {
+  "<C-a>": false,
+  "<C-f>": false
+}
+}
+

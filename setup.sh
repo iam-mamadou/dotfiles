@@ -18,6 +18,7 @@ mv $USER_DIR/.vimrc $BACKUP_DIR/.vimrc
 ln -sf $USER_DIR/dotfiles/.vimrc $USER_DIR/.vimrc
 ln -sf $USER_DIR/dotfiles/.tmux.conf $USER_DIR/.tmux.conf
 ln -sf $USER_DIR/dotfiles/.zshrc $USER_DIR/.zshrc
+ln -sf $USER_DIR/dotfiles/vscode/settings.json $USER_DIR/Library/Application\ Support/Code/User/settings.json
 
 touch $USER_DIR/.hushlogin
 
