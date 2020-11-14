@@ -4,10 +4,12 @@
     "files.exclude": {
         "**/.git": false
 },
-"editor.minimap.enabled": false,
 "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
 "editor.fontLigatures": true,
 "editor.codeActionsOnSave": null,
+"editor.minimap.enabled": false,
+"editor.lineNumbers": "off",
+"editor.folding": false,
 "editor.suggestSelection": "first",
 
 "workbench.sideBar.location": "left",
