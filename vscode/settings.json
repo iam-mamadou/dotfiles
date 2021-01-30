@@ -16,7 +16,7 @@
 "workbench.startupEditor": "newUntitledFile",
 "workbench.activityBar.visible": false,
 "workbench.editor.centeredLayoutAutoResize": false,
-"workbench.colorTheme": "Community Material Theme",
+"workbench.colorTheme": "Community Material Theme Darker",
 
 "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 "files.autoSave": "afterDelay",
@@ -68,4 +68,3 @@
   "<C-f>": false
 }
 }
-
